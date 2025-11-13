@@ -1,0 +1,20 @@
+body,html,#root { height:100%; margin:0; font-family:Arial, sans-serif; }
+.app-bg {
+  min-height:100vh;
+  background-image: url('https://www.blogger.com/about/img/social/facebook-1200x630.jpg');
+  background-size:cover;
+  background-position:center;
+  color:#222;
+}
+.topbar { display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:rgba(255,255,255,0.9); position:sticky; top:0; z-index:10; }
+.logo-section { display:flex; align-items:center; gap:10px; }
+.logo { width:40px; height:40px; background:#ccc; border-radius:6px; }
+.brand { font-weight:700; font-size:20px; }
+.nav-right { display:flex; align-items:center; gap:8px; }
+.dropdown { position:relative; }
+.dropdown-content { display:none; position:absolute; right:0; top:36px; background:white; box-shadow:0 6px 18px rgba(0,0,0,0.15); padding:8px; border-radius:8px; min-width:160px; }
+.dropdown.open .dropdown-content { display:block; }
+.card { background:rgba(255,255,255,0.95); padding:16px; border-radius:8px; margin:12px auto; max-width:900px; }
+.center { text-align:center; }
+input, textarea { width:100%; padding:8px; margin:8px 0; box-sizing:border-box; }
+button { padding:8px 12px; cursor:pointer; }
