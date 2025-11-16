@@ -1,12 +1,12 @@
 <<<<<<< HEAD
 # Blog-Platform
 =======
-Blog Fullstack (React + Flask + MySQL) - v3
+Blog Fullstack (HTML,CSS + Flask + MySQL) - v3
 ==========================================
 
 What's included:
 - backend/: Flask app with JWT auth, password hashing, blog CRUD, image uploads
-- frontend/: React app (single-file component pages) with Login/Signup/Home/Profile(Create/Edit/Delete)/Create
+- frontend/: HTML,CSS (single-file component pages) with Login/Signup/Home/Profile(Create/Edit/Delete)/Create
 
 Quick start backend:
   cd backend
@@ -17,10 +17,7 @@ Quick start backend:
   # create MySQL database 'blogdb' or change DB name in .env
   python app.py
 
-Quick start frontend:
-  cd frontend
-  npm install
-  npm start
+
 
 Notes:
 - The frontend expects backend at http://localhost:5000 by default.
